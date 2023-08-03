@@ -29,7 +29,8 @@ app.get('/hello',(req,res)=>{
 app.post('/hello',(req,res)=>{
     res.send({
         success:true,
-        message:"hello"
+        message:"hello",
+        stauscode:200
     })
 });
 
